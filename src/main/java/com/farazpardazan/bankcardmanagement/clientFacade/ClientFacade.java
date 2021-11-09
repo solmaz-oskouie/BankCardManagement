@@ -1,4 +1,4 @@
-package com.farazpardazan.clientFacade;
+package com.farazpardazan.bankcardmanagement.clientFacade;
 
 import com.farazpardazan.bankcardmanagement.MoneyManagement.api.MoneyTransferingDto;
 import com.farazpardazan.bankcardmanagement.MoneyManagement.model.MoneyTransaction;
