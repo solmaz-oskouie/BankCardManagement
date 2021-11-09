@@ -1,0 +1,15 @@
+version: '۱.۰'
+
+services:
+  java:
+    image: bank-card-management:latest
+    volumes:
+      - ./target/:/usr/app/
+    network_mode: bridge
+    ports:
+      - 6060:6060
+    restart: always
+
+
+
+

@@ -1,0 +1,36 @@
+
+server:
+  port: 6060
+
+logging:
+  level:
+    root: info
+
+
+
+spring:
+  datasource:
+
+    url: jdbc:mysql://192.168.91.217:3306/dejvu
+    username: solmaz
+    password: solmaz123456
+
+
+
+  jpa:
+    database: MYSQL
+    properties:
+        hibernate:
+          dialect: org.hibernate.dialect.MariaDB103Dialect
+    hibernate:
+        ddl-auto: none
+    show-sql: true
+    open-in-view: false
+
+
+
+
+
+
+
+
